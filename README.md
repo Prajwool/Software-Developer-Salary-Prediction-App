@@ -22,13 +22,14 @@ To run this app locally, you will need to install the necessary dependencies. Yo
    ```bash
    git clone (https://github.com/Prajwool/Software-Developer-Salary-Prediction-App)
    cd repository-name
-###2.(Optional) Create and activate a virtual environment:
+2.(Optional) Create and activate a virtual environment:
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate
 
-###3.Install the required dependencies:
+3.Install the required dependencies:
 pip install -r requirements.txt
+###
 
-##Running the App
+## Running the App
 Once you have installed the dependencies, you can run the app using the following command:
 streamlit run app.py
